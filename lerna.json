@@ -1,0 +1,16 @@
+{
+  "packages": [
+    "packages/*",
+    "packages/@types/**",
+    "packages/project-1/src/**",
+    "packages/project-2/src/**"
+  ],
+  "version": "independent",
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    }
+  }
+}
