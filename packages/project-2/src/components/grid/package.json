@@ -1,18 +1,21 @@
 {
-  "name": "@project-1/my-component",
+  "name": "@project-2/grid",
   "version": "0.0.0",
   "author": "test",
   "source": "index.ts",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "dependencies": {
+    "@project-1/grid": "^0.0.0"
+  },
   "devDependencies": {
     "react": "^16.12.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
-    "dev": "webpack index.ts --mode development",
-    "build": "webpack index.ts --mode production",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
     "prepack": "npm run build"
   }
 }

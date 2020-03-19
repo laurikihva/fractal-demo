@@ -1,13 +1,10 @@
 {
-  "name": "@project-2/my-component",
+  "name": "@project-1/grid",
   "version": "0.0.0",
   "author": "test",
   "source": "index.ts",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "dependencies": {
-    "@project-1/my-component": "^0.0.0"
-  },
   "devDependencies": {
     "react": "^16.12.0",
     "webpack": "^4.41.6",

@@ -1,6 +1,0 @@
-status: ready
-variants:
-  - name: example
-    view: my-component--example.tsx
-    context:
-      title: Example title from project 2

@@ -1,0 +1,8 @@
+status: ready
+context:
+  children: <GridColumn />
+variants:
+  - name: example
+    view: grid--example.tsx
+    context:
+      columnContent: my awesome column

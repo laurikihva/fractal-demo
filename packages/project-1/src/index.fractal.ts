@@ -1,3 +1,3 @@
 export * from './';
 
-export { default as MyComponentExample } from '../src/components/my-component/my-component--example';
+export { default as GridExample } from '../src/components/grid/grid/grid--example';

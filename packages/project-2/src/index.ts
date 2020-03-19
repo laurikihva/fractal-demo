@@ -1,4 +1,9 @@
 import 'react';
 import 'react-dom';
 
-export { default as MyComponent, IMyComponentProps } from '@project-2/my-component';
+export {
+    default as Grid,
+    IGridProps,
+    GridColumn,
+    IGridColumnProps,
+} from '@project-2/grid';
