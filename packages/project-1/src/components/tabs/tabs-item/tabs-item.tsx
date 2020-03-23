@@ -1,13 +1,13 @@
 import * as React from 'react';
 
-export interface IGridColumnProps {
+export interface ITabsItemProps {
     children: React.ReactNode;
 }
 
-export default class GridColumn extends React.Component<IGridColumnProps> {
+export default class TabsItem extends React.Component<ITabsItemProps> {
     render(): JSX.Element {
         return (
-            <div className="grid__col">
+            <div className="tabs__item">
                 {this.props.children}
             </div>
         );

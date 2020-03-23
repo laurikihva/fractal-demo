@@ -1,0 +1,8 @@
+status: ready
+context:
+  children: <TabsItem />
+variants:
+  - name: example
+    view: tabs--example.tsx
+    context:
+      tabsItemContent: my awesome tabs item from project 1

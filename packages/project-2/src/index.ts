@@ -7,3 +7,10 @@ export {
     GridColumn,
     IGridColumnProps,
 } from '@project-2/grid';
+
+export {
+    default as Tabs,
+    ITabsProps,
+    TabsItem,
+    ITabsItemProps,
+} from '@project-2/tabs';

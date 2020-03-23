@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@project-1/grid": "^0.0.0",
+    "@project-1/tabs": "^0.0.0",
     "core-js": "^3.6.4"
   },
   "devDependencies": {

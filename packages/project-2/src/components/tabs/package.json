@@ -1,0 +1,21 @@
+{
+  "name": "@project-2/tabs",
+  "version": "0.0.0",
+  "author": "test",
+  "source": "index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "@project-1/tabs": "^0.0.0"
+  },
+  "devDependencies": {
+    "react": "^16.12.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "prepack": "npm run build"
+  }
+}
